@@ -7,7 +7,10 @@ This is a python wrapper class for the dogechain.info api.
  
 ___________________________________________________
 
-**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi"**
+**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi"** 
+
+!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-dogechain.info-api/blob/master/donation-qr-code.png?raw=true)
+
 ___________________________________________________
  
 _Methods_
@@ -25,7 +28,6 @@ _Methods_
 * transactions - shows the amount transactions of the last blocks.
 
 ___________________________________________________
-
 
 Here's an example:
 
