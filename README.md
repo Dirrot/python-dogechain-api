@@ -71,5 +71,5 @@ if __name__ == '__main__':
     print 'TotalBalance: ', totalbc
     
     transactions = api.transactions()
-    print 'Transactions', transactionsü
+    print 'Transactions', transactions
 ```
