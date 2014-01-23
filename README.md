@@ -6,6 +6,9 @@ This is a python wrapper class for the dogechain.info api.
  http://dogechain.info/chain/Dogecoin/q
  
 ___________________________________________________
+
+**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi"**
+___________________________________________________
  
 _Methods_
 * addressbalance - amount ever received minus amount ever sent by a given address.
@@ -23,8 +26,6 @@ _Methods_
 
 ___________________________________________________
 
-**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi"**
-___________________________________________________
 
 Here's an example:
 
