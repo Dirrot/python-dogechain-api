@@ -1,4 +1,4 @@
-python-dogechain.info-api
+python-dogechain-api
 =========================
 
 This is a python wrapper class for the dogechain.info api.
