@@ -6,12 +6,6 @@ This is a python wrapper class for the dogechain.info api.
  http://dogechain.info/chain/Dogecoin/q
  
 ___________________________________________________
-
-**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
-
-!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-dogechain.info-api/blob/master/img/donation-qr-code.png?raw=true)
-
-___________________________________________________
  
 _Methods_
 * addressbalance - amount ever received minus amount ever sent by a given address.
@@ -76,3 +70,9 @@ if __name__ == '__main__':
     transactions = api.transactions()
     print 'Transactions', transactions
 ```
+
+___________________________________________________
+
+**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
+
+!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-dogechain.info-api/blob/master/img/donation-qr-code.png?raw=true)
