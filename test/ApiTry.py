@@ -8,7 +8,7 @@ Created on 21.01.2014
 
 '''
 
-from DogechainInfoApi import API
+from DogechainApi import API
 
 if __name__ == '__main__':
     

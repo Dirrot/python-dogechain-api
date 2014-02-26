@@ -23,6 +23,13 @@ _Methods_
 
 ___________________________________________________
 
+_Install_
+```bash
+sudo pip install DogechainApi
+```
+
+___________________________________________________
+
 Here's an example:
 
 ```python
