@@ -13,7 +13,7 @@ pathname		=		getcwd()
 packages        =       ['DogechainApi']
 
 setup(name		    =		'DogechainApi',
-      version		=		'0.0.1',
+      version		=		'0.1',
       description	=		'Python API for www.dogechain.info',
       author		=		'Dirrot',
       author_email  =       'dirrot@web.de',
