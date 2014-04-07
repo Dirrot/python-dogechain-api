@@ -80,6 +80,5 @@ if __name__ == '__main__':
 
 ___________________________________________________
 
-**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
+Donation: "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]
 
-!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-dogechain.info-api/blob/master/img/donation-qr-code.png?raw=true)
