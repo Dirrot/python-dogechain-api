@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 '''
 Created on 21.01.2014
 
@@ -5,6 +8,10 @@ Created on 21.01.2014
 @contact: dirrot@web.de
 @license: GPL
 @version: 0.1
+
+
+modified by @c0ding
+  - added network hashrate
 
 '''
 
@@ -60,7 +67,7 @@ class API(object):
     
     def getdifficulty(self):
         '''
-        Shows the last solved block's difficulty.
+        Shows the last solved block"s difficulty.
         Usage: API_QUERY + getdifficulty
         '''
         url = self.API_QUERY + 'getdifficulty'
@@ -82,6 +89,19 @@ class API(object):
         '''
         url = self.API_QUERY + 'getsentbyaddress/' + address
         return self._getdata(url)
+	
+    def hashrate(self):
+        '''
+            Shows network hashrate.
+            Usage: API_QUERY + nethash + last_block
+        '''
+        
+        blocks = self.getblockcount()
+        url = self.API_QUERY + 'nethash/' + blocks + '?format=json'
+        data = self._getdata(url)
+        clean_data = data.strip('[]')
+        split_data = clean_data.split(',')
+        return split_data[4]
     
     def hashtoaddress(self, hash):
         '''
